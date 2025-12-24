@@ -1,77 +1,24 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+.body {
+  font-family: 'Segoe UI', sans-serif;
 }
 
-/* NAVBAR */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 30px;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.bg-dark {
+  background-color: #343a40 !important;
 }
 
-.navbar a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: black;
+.card-body p {
   font-weight: bold;
 }
 
-/* HERO */
-.hero {
-  background: #6a2bbf;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h1 {
-  font-size: 24px;
-  line-height: 1.5;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* PRODUK */
-.produk {
-  padding: 50px 20px;
-}
-
-.produk-box {
-  display: flex;
-  gap: 30px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.produk img {
-  width: 300px;
-  border-radius: 10px;
-}
-
-.btn-wa {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background: green;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #f4f4f4;
+/* Responsif untuk android */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
 }
