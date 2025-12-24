@@ -1,26 +1,77 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  background: #f4f4f4;
 }
 
-.produk {
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
   background: white;
-  width: 220px;
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: #6a2bbf;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* PRODUK */
+.produk {
+  padding: 50px 20px;
+}
+
+.produk-box {
+  display: flex;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .produk img {
-  width: 100%;
+  width: 300px;
+  border-radius: 10px;
 }
 
-button {
+.btn-wa {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
   background: green;
   color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+  text-decoration: none;
   border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f4f4f4;
 }
