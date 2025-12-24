@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.produk {
+  background: white;
+  width: 220px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.produk img {
+  width: 100%;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
